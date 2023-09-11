@@ -233,3 +233,16 @@ main {
 #sign-up-section button {
     border: 3px solid #F9FAF8;
 }
+
+/* FOOTER SECTION */
+footer {
+    font-weight: 200;
+    font-size: 0.8em;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100vw;
+    height: 10vh;
+
+    display: grid;
+    place-content: center;
+}
