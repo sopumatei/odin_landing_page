@@ -1,0 +1,16 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* GENERAL STYLES */
+html {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
