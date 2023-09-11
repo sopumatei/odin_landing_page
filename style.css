@@ -77,7 +77,7 @@ header {
 /* HEADER DESCRIPTION */
 #head-description {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* gap: 20vw; */
     margin-inline: 10vw;
@@ -129,4 +129,107 @@ header {
     height: 30vh;
 
     /* margin-top: 25px; */
+}
+
+/* MAIN SECTION */
+main {
+    padding: 1.2em;
+
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+}
+
+/* INFORMATION SECTION */
+.information-section {
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+}
+
+#information-containers {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.information-container {
+    padding: 0.5em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.information-container img {
+    min-width: 200px;
+    width: 20vw;
+    height: 25vh;
+
+    border: 6px solid #3882F6;
+    border-radius: 8px;
+}
+
+/* QUOTE SECTION */
+#quote {
+    height: 30vh;
+    background-color: #E5E7EB;
+    width: 100vw;
+
+    padding: 2em;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#quote-author {
+    align-self: flex-end;
+}
+
+/* SING UP SECTION */
+#sign-up-section {
+    width: 80vw;
+    max-width: 850px;
+    background-color: #3882F6;
+    padding: 1.5em;
+    border-radius: 8px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up-text {
+    width: 70%;
+    font-size: 0.8em;
+}
+
+.sign-up-text h4 {
+    color: #F9FAF8;
+}
+
+.sign-up-text p {
+    color: #E5E7EB;
+}
+
+#sign-up-section button {
+    border: 3px solid #F9FAF8;
 }
