@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <header>
+            <nav id="head-nav">
+                <h3 id="head-title">Shawarma</h3>
+
+                <a href="#" class="head-link">Account</a>
+                <a href="#" class="head-link">Shop</a>
+                <a href="#" class="head-link">About Us</a>
+            </nav>
+
+            <div id="head-description">
+                <div id="description-content">
+                    <h1>Shawarma is super delicious and awesome!</h1>
+                    <p>Is made of spit-roasted layers of lamb, beef, or other meat that are sliced and often wrapped in or served with pita.</p>
+                    <button class="sign-up-button">Sign u p</button>
+                </div>
+
+                <img src="./img/shawarma.jpg" alt="Shawarma" id="description-img">
+            </div>
+        </header>
+
+        <main>
+            <div class="information-section">
+                <h1>Examples of shawarma</h1>
+
+                <div id="infomation-containers">
+                    <div class="information-container">
+                        <img src="./img/shawarma_chicken.jpg" alt="Shawarma Chicken">
+                        <p>Chicken Shawarma</p>
+                    </div>
+                    <div class="information-container">
+                        <img src="./img/shawarma_beef.jpg" alt="Shawarma Beef">
+                        <p>Beef Shawarma</p>
+                    </div>
+                    <div class="information-container">
+                        <img src="./img/shawarma_lamb.jpg" alt="Shawarma Lamb">
+                        <p>Lamb Shawarma</p>
+                    </div>
+                    <div class="information-container">
+                        <img src="./img/shawarma_mix.jpg" alt="Shawarma Mix">
+                        <p>Mix of Meat (Chicken, Beef and Lamb) Shawarma</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="quote">
+                <h3 id="qute-text">"If there is a hole, there is a goal."</h3>
+                <p id="quote-author">-Master Oogway</p>
+            </div>
+
+            <div id="sign-up-section">
+                <div class="sign-up-text">
+                    <h3>Come and eat a shawarma! It's time!</h3>
+                    <p>Sign up so you can taste a shawarma by clicking that button over there.</p>
+                </div>
+
+                <button class="sign-up-button">Sign up</button>
+            </div>
+        </main>
+
+        <footer>
+            <h4 id="copyright-text">Copyright &copy; Shawarma </h4>
+        </footer>
+
+        <!-- COPYRIGHT YEAR SCRIPT (GETS THE CURRENT YEAR) -->
+        <script>
+            const copyrightText = document.getElementById('copyright-text')
+            const currentDate = new Date
+            const currentYear = currentDate.getFullYear()
+
+            copyrightText.textContent += currentYear
+        </script>
+    </body>
+</html>
