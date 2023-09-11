@@ -14,3 +14,119 @@ html {
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
 }
+
+img {
+    width: 545px;
+    height: 545px;
+}
+
+body {
+    min-height: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HEADER SECTION */
+header {
+    width: 100vw;
+    background-color: #1F2937;
+    padding: 0.5em;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 10vh;
+}
+
+/* HEADER NAV */
+
+#head-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 10vw;
+}
+
+#head-title {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#links-container {
+    display: flex;
+    gap: 16px;
+}
+
+#links-container a {
+    color: #E5E7EB;
+    text-decoration: none;
+
+    transition: all 0.1s linear;
+}
+
+#links-container a:visited {
+    color: #E5E7EB;
+}
+
+#links-container a:hover {
+    opacity: 0.5;
+}
+
+/* HEADER DESCRIPTION */
+#head-description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 20vw; */
+    margin-inline: 10vw;
+    margin-bottom: 10vh;
+}
+
+#description-content {
+    margin-right: 5vw;
+}
+
+#description-content h3 {
+    color: #F9FAF8;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#description-content p {
+    font-size: 0.8em;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    font-weight: 525;
+    margin-top: 1em;
+    font-size: 0.8em;
+    padding: 0.25em 1em;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+
+    transition: all 0.1s linear;
+}
+
+.sign-up-button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+    cursor: pointer;
+}
+
+.sign-up-button:active {
+    transform: scale(0.96);
+}
+
+#head-description img {
+    border-radius: 8px;
+    width: min(50vw, 750px);
+    height: 30vh;
+
+    /* margin-top: 25px; */
+}
